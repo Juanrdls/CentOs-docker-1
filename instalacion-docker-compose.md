@@ -1,4 +1,4 @@
-# INSTALACIÓN DOCKER CENTOS
+# INSTALACIÓN DOCKER-COMPOSE CENTOS
 
 Para su instalacion, vamos a proceder a seguir los pasos de la [ṕagina oficial](https://docs.docker.com/compose/install/) de docker.
 
