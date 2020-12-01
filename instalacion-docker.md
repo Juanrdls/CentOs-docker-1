@@ -2,17 +2,22 @@
 
 Para la instalación vamos a seguir los pasos de la [página oficial de docker](https://docs.docker.com/engine/install/centos/) pero previamente vamos a preparar la maquina CentOs.
 
-* Vamos a configurar los repositorios
+* Vamos a configurar los repositorios y instalar docker engine
+  
+**Primero instalamos el paquete yum-utils**
 
-      sudo yum install -y yum-utils
+ ![captura1.png](/capturas/captura1.png)
+
+**Posteriormente añadimos el repositorio desde donde se descargara**
+
+ ![captura2.png](/capturas/captura2.png)
+
+**Procedemos a instalar docker engine**
+
+ ![captura3.png](/capturas/captura3.png)      
       
-      sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-      
-- Procedemos a instalar docker engine (el motor de docker)
+* Por ultimo activamos el servicio y probamos que funciona utilizando algunos comandos basicos
 
-      sudo yum install docker-ce docker-ce-cli containerd.io
-      
-- Activamos el servicio de docker
+ ![captura4.png](/capturas/captura4.png)
 
-      sudo systemctl start docker
-
+ ![captura5.png](/capturas/captura5.png)
